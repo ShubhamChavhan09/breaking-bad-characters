@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const CharacterGrid = ({ isLLoading, items }) => {
   return isLLoading ? (
-    <h1>Loading...</h1>
+    <h1>Loading....</h1>
   ) : (
     <Cards>
       {items.map((item) => (
